@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Poppins:wght@300&display=swap');
+body{
+    width:100vw;
+    height:100vh;
+    margin: 0;
+    color: #fff;
+    background: linear-gradient(to right,#02534f,rgb(0, 0, 0));
+    font-family: 'poppins';
+    overflow-x: hidden;
+}
+header,nav{
+    width: 100vw;
+    margin:0;
+    overflow-x: hidden;
+    font-family: 'poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 15px; 
+}
+section{
+    width:100%;
+   
+   
+    
+    
+}
+.get-started{
+    background: #009379;
+    border-radius: 10px;
+    transition: .4s all ease-in-out;
+    
+}
+.get-started:hover{
+    transform: scale(1.1);
+}
+.main-img{
+    max-width: fit-content;
+}
+.left-home-content{
+    color:#fff;
+    margin:0;
+}
+@font-face {
+    font-family: "myFirstFont";
+    src: url("Asset\\zero_prime\\zeroprime.ttf");
+}
+.main-title{
+    color: #FFF;
+    font-family: 'myFirstFont';
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: -1.675px;
+    
+}
+.typing-effect{
+    margin-top: 20px;
+    font-family: 'poppins';
+    font-weight: bold; 
+    font-size: 22px;
+    line-height: 150%;
+}
+.main-para{
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 150%;
+}
+.button-1{  
+    
+    border-radius: 20px;
+    border:hidden;
+    padding: 3% 10%;
+    background: #009379;
+    color:#fff;
+    margin:1px;
+    transition: .4s all ease-in-out;
+    
+}
+
+.button-1:hover{
+    transform: scale(1.07);
+    background: #009379;
+    box-shadow: #fff;
+    
+    
+}
+.button-2{
+    background-color: #FFF;
+    border-radius: 20px;
+    border:hidden;
+    padding: 3% 10%;
+    color: #009379;
+    transition: .4s all ease-in-out;
+    
+}
+.button-2:hover{
+    transform: scale(1.07);
+    background-color: #FFF;
+    color: #fff;
+    
+}
+.button-c1{
+    text-decoration: none;
+    background: #009379;
+    color:#fff;
+}
+.button-c2{
+    
+    text-decoration: none;
+    color:#000
+}
+.button-c1:hover{
+    text-decoration: none;
+    color:#FFF;
+}
+.button-c2:hover{
+    text-decoration: none;
+    color: #009379;
+    
+}
+.feature-section>h1{
+    color: #fff;
+}
+.card-link{
+    color: #009379;
+    text-decoration: none;
+
+}
+.card-link:hover{
+    text-decoration: none;
+}
+.custom-card{
+    border-radius: 25px;
+    padding: 30px 20px;
+    margin-bottom: 80px;
+    transition: .4s all ease-in-out;
+}
+.custom-card:hover{
+    transform: scale(1.06);
+
+}
+
+.custom-card{
+    color: #000;
+    
+}
+.feature-topic{
+    color: #fff;
+}
+/* contact us */
+/* contact us */
+.contact-img{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+.contat-us{
+    border-radius: 20px;
+    color: #000;
+    padding: 20px 30px;
+    font-family: 'poppins';
+    
+
+}
+/* .contat-us:hover{
+    transform: scale(1.08);
+} */
+.contact-form{
+    margin: 40px ;
+}
+.astric{
+    color: red;
+}
+.form-submit{
+    background-color: #009379;
+   box-shadow: none;
+   border-radius: 10px;
+   padding: 8px 20px;
+   color: #FFF;
+
+}
+.form-submit:hover{
+    transform: scale(1.08);
+
+}
+
+
+#lastsection{
+    margin-top: 250px;
+    color: #FFF;
+}
+.button-end{
+    background-color: #009379;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+}
