@@ -127,7 +127,7 @@
 
             </div>
             <div class="col">
-                <form class=" mx-3  " data-aos="fade-up" data-aos-duration="1000">
+                <form class=" mx-3  " data-aos="fade-up" data-aos-duration="1000" onsubmit="sendEmail(); reset(); return false;">
                     <div class="contat-us bg-light ">
                         <div class="text-center ">
                             <h2 class="fw-bold">Contact Us</h2>
@@ -204,5 +204,21 @@
     <script> AOS.init();</script>
     <script src="new.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                    Host : "smtp.gmail.com",
+                    Username : "",
+                    Password : "password",
+                    To : 'vpriyan459@gmail.com',
+                    From : document.getElementById('email').value,
+                    Subject : "new contact form enquiry",
+                    Body : "And this is the body"
+                }).then(
+            message => alert(message)
+            );
+        }
+    </script>
 </body>
 </html>
